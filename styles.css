@@ -1,7 +1,45 @@
+:root {
+  --height: 500px;
+}
+
 body {
   background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);
 }
 
 h1 {
   color: blue;
+}
+
+img {
+  max-height: var(--height);
+  margin-left: 100px;
+}
+
+.main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 75px;
+}
+
+.text-design {
+  margin-top: 150px;
+  margin-left: -100px;
+}
+
+.about-btn {
+  margin-top: 50px;
+  background-color: transparent;
+  border-radius: 5px;
+  border: 1px solid blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.about-btn:hover {
+  color: blue;
+  background-color: #E3F2FD;
+  border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+  transition: all ease-in-out 200ms;
 }
