@@ -29,6 +29,27 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
 <body>
+  <nav class="navbar" style="background-color: #e3f2fd;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Eyii</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Overview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <h1 class="d-flex justify-content-center">Hi Everyone!! you can call me Eyi.</h1>
     <div class="container main-txt-content border border-success">
       <div class="row">
@@ -40,8 +61,28 @@
             I love dancing and singing, and I do play instruments like, guitar, and drums. 
             I also love sports, soccer, volleyball, basketball and badminton.</p>
         </div>
-        <div class="col-sm-6">2</div>
+        <div class="col-sm-6 img-box">
+          <img src="src/images/01.jpg" title="image one" class="image">
+        </div>
+
+        <div class="container">
+        <div class="popup-img">
+          <span>&times;</span>
+          <img src="src/images/01.jpg" title="Bubbly">
+        </div>
+    </div>
       </div>
   </div>
 </body>
+<script>
+  document.querySelectorAll (`.img-box img`).forEach(image=>{image.onclick = () => {
+    documemt.querySelector (`.popup-img`).style.display = `block`;
+    documemt.querySelector (`.popup-img img`).src = image.getAttribute(`src`);
+  }})
+
+  document.querySelector(`.popup-img span`).onclick = () => {
+    documemt.querySelector (`.popup-img`).style.display = `none`;
+  }
+
+</script>
 </html>
