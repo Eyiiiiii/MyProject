@@ -1,9 +1,9 @@
 :root {
-  --height: 500px;
+  --height: 400px;
 }
 
-@media (max-width:576px) {
-.text-design {
+@media (max-width:540px) {
+.text-design, .bot-design {
   text-align: center;
 }
 
@@ -28,14 +28,22 @@ img {
 }
 
 .main-content {
-  margin-top: 50px;
+  margin-top: 130px;
   margin-bottom: 50px;
-  margin-left: 75px;
+  margin-left: 250px;
+  width: 1000px;
+}
+
+.bot-design {
+  margin-top: -50px;
+  line-height: none;
+  margin-left: 250px;
+  width: 1000px;
 }
 
 .text-design {
-  margin-top: 150px;
-  margin-left: -100px;
+  margin-top: 120px;
+  margin-left: -50px;
 }
 
 .about-btn {
@@ -54,4 +62,36 @@ img {
   background-color: #E3F2FD;
   border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
   transition: all ease-in-out 200ms;
+}
+
+.proj-link {
+  color: black;
+  text-decoration: none;
+}
+
+.proj-link:hover {
+  color: blue;
+  text-decoration: underline;
+  transition: all ease-in-out 200ms;
+}
+
+.proj-link:active {
+  color: blueviolet;
+}
+
+/* About styles css*/
+
+.main-txt-content {
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.main-txt {
+  width: 570px;
+  height: 300px;
+  background-color: #B4F1FF;
+}
+
+p {
+  margin-top: 50px;
 }
