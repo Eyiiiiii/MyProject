@@ -23,7 +23,7 @@ h1 {
   color: blue;
 }
 
-img {
+.indx-img {
   max-height: var(--height);
   margin-left: 100px;
 }
@@ -81,6 +81,11 @@ img {
 }
 
 /* About styles css*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .main-txt-content {
   width: 1200px;
@@ -97,36 +102,37 @@ p {
   margin-top: 50px;
 }
 
-.image {
-  margin-top: 20px;
+.image-size {
   height: var(--image-h);
   width: var(--image-w);
 }
 
 img:hover {
   transform: scale(1.1);
+  transition: all 200ms ease-in-out;
 }
 
-.img-box {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-  padding: 10px    ;
+.container .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
 }
 
-.img-box .image {
-  border: 10px solid #fff;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+.container .image-container .image {
+  border: 6px solid #fff;
+  box-shadow: 0 5px 15px rgba(0,0,0,.1);
+  overflow: hidden;
   cursor: pointer;
 }
 
-.img-box .image img {
+.container .image-container .image img {
   object-fit: cover;
   transition: .2s linear;
 }
 
-.img-box .image:hover img {
+.container .image-container .image:hover img {
   transform: scale(1.1);
 }
 
@@ -147,7 +153,7 @@ img:hover {
   font-weight: bolder;
   color: #fff;
   cursor: pointer;
-  z-index: 100
+  z-index: 100;
 }
 
 .container .popup-img img {
@@ -156,7 +162,8 @@ img:hover {
   transform: translate(-50%, -50%);
   border: 5px solid #fff;
   border-radius: 5px;
-  width: 750px;
+  width: 500px;
+  height: 500px;
   object-fit: cover;
 }
 

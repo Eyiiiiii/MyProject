@@ -53,7 +53,7 @@
     <h1 class="d-flex justify-content-center">Hi Everyone!! you can call me Eyi.</h1>
     <div class="container main-txt-content border border-success">
       <div class="row">
-        <div class="col-sm-6 main-txt border border-dark rounded shadow-sm p-2">
+        <div class="col-sm main-txt border border-dark rounded shadow-sm p-2">
           <p>My name is Agatha Deladia,  21 years of age from the Philippines. 
             I am Currently studying at Technological University of the Philippines, 
             where I take Bachelor of Science in Computer Science Major in Computer Programming. 
@@ -61,28 +61,42 @@
             I love dancing and singing, and I do play instruments like, guitar, and drums. 
             I also love sports, soccer, volleyball, basketball and badminton.</p>
         </div>
-        <div class="col-sm-6 img-box">
-          <img src="src/images/01.jpg" title="image one" class="image">
-        </div>
 
-        <div class="container">
-        <div class="popup-img">
-          <span>&times;</span>
-          <img src="src/images/01.jpg" title="Bubbly">
-        </div>
-    </div>
-      </div>
       
+  </div> 
+</div><!-- container-main-text closing tag-->
+
+  <div class="container border border-primary">
+    <div class="image-container">
+      <div class="image">
+        <img src="src/images/01.jpg" title="image one" class="image-size">
+      </div>
+      <div class="image">
+        <img src="src/images/02.jpg" title="image two" class="image-size">
+      </div>
+      <div class="image">
+        <img src="src/images/03.jpg" title="image three" class="image-size">
+      </div>
+      <div class="image">
+        <img src="src/images/04.jpg" title="image four" class="image-size">
+      </div>
+    </div>
+
+    <div class="popup-img">
+      <span>&times;</span>
+      <img src="src/images/01.jpg" title="Bubbly">
+    </div>
   </div>
+
 </body>
 <script>
-  document.querySelectorAll (`.img-box img`).forEach(image=>{image.onclick = () => {
-    documemt.querySelector (`.popup-img`).style.display = `block`;
-    documemt.querySelector (`.popup-img img`).src = image.getAttribute(`src`);
+  document.querySelectorAll (`.image-container img`).forEach(image=>{image.onclick = () => {
+    document.querySelector (`.popup-img`).style.display = `block`;
+    document.querySelector (`.popup-img img`).src = image.getAttribute(`src`);
   }})
 
   document.querySelector(`.popup-img span`).onclick = () => {
-    documemt.querySelector (`.popup-img`).style.display = `none`;
+    document.querySelector (`.popup-img`).style.display = `none`;
   }
 
 </script>
