@@ -44,16 +44,19 @@
             <a class="nav-link" href="about.html">About</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="work.html">Work</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-    <h1 class="d-flex justify-content-center">Hi Everyone!! you can call me Eyi.</h1>
-    <div class="container main-txt-content border border-success">
+    <h1 class="d-flex justify-content-center top-txt">Hi Everyone!! you can call me Eyi.</h1>
+    <div class="container main-txt-content">
       <div class="row">
-        <div class="col-sm main-txt border border-dark rounded shadow-sm p-2">
+        <div class="col-sm main-txt">
           <p>My name is Agatha Deladia,  21 years of age from the Philippines. 
             I am Currently studying at Technological University of the Philippines, 
             where I take Bachelor of Science in Computer Science Major in Computer Programming. 
@@ -61,12 +64,9 @@
             I love dancing and singing, and I do play instruments like, guitar, and drums. 
             I also love sports, soccer, volleyball, basketball and badminton.</p>
         </div>
-
-      
-  </div> 
+    </div> 
 </div><!-- container-main-text closing tag-->
-
-  <div class="container border border-primary">
+  <div class="container for-img">
     <div class="image-container">
       <div class="image">
         <img src="src/images/01.jpg" title="image one" class="image-size">
@@ -81,12 +81,20 @@
         <img src="src/images/04.jpg" title="image four" class="image-size">
       </div>
     </div>
-
     <div class="popup-img">
       <span>&times;</span>
-      <img src="src/images/01.jpg" title="Bubbly">
+      <img src="src/images/01.jpg" title="Bubbly" class="image-size">
+      <img src="src/images/02.jpg" title="image two" class="image-size">
+      <img src="src/images/03.jpg" title="image three" class="image-size">
+      <img src="src/images/04.jpg" title="image four" class="image-size">
     </div>
   </div>
+
+  <div class="container bottom-btn">
+    <div class="col-sm d-flex justify-content-end">
+      <h6>Click this button to see my 👉 <a href="work.html"><button class="work-btn">Works</button></a></h6>
+    </div>
+</div><!-- container-main-text closing tag-->
 
 </body>
 <script>
@@ -98,6 +106,5 @@
   document.querySelector(`.popup-img span`).onclick = () => {
     document.querySelector (`.popup-img`).style.display = `none`;
   }
-
 </script>
 </html>
