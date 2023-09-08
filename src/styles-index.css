@@ -1,0 +1,87 @@
+:root {
+    --height: 400px;
+    --image-h: 200px;
+    --image-w: 200px;
+  }
+
+  body {
+    background-image: url("src/images/bgwp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  @media (max-width:540px) {
+  .text-design, .bot-design {
+    text-align: center;
+  }
+  
+  .image-design {
+    display: none;
+  }
+  
+  }
+  
+  h1 {
+    color: #9084D2;
+  }
+  
+  .indx-img {
+    max-height: var(--height);
+    margin-left: 100px;
+  }
+  
+  .main-content {
+    margin-top: 130px;
+    margin-bottom: 50px;
+    margin-left: 250px;
+    width: 1000px;
+  }
+  
+  .bot-design {
+    margin-top: -50px;
+    line-height: none;
+    margin-left: 250px;
+    width: 1000px;
+  }
+  
+  .text-design {
+    margin-top: 120px;
+    margin-left: -50px;
+  }
+  
+  i h6 {
+    color: #9084D2;
+  }
+  
+  .about-btn {
+    margin-top: 50px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid blue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .about-btn:hover {
+    color: blue;
+    background-color: #E3F2FD;
+    border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+    transition: all ease-in-out 200ms;
+  }
+  
+  .proj-link {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .proj-link:hover {
+    color: blue;
+    text-decoration: underline;
+    transition: all ease-in-out 200ms;
+  }
+  
+  .proj-link:active {
+    color: blueviolet;
+  }
