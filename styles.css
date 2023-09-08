@@ -4,8 +4,9 @@
   --image-w: 200px;
 }
 body {
-  background: radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);
-  background-repeat: repeat-y, repeat-x;
+  background-image: url("src/images/bgwp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (max-width:540px) {
@@ -209,4 +210,18 @@ img:hover {
   background-color: #E3F2FD;
   border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
   transition: all ease-in-out 200ms;
+}
+
+/*Work page CSS*/
+
+hr {
+  margin-left: 30px;
+  width: 60px !important;
+  border: 2px solid blue;
+  line-height: none;
+}
+
+.title {
+  margin-top: 30px;
+  font-weight: bold;
 }
