@@ -1,5 +1,5 @@
 :root {
-  --height: 400px;
+  --height: 350px;
   --image-h: 200px;
   --image-w: 200px;
 }
@@ -8,7 +8,7 @@ body {
   background-image: url("src/images/bgwp.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Argent CF';
 }
 
 @media (max-width:540px) {
@@ -36,6 +36,7 @@ h6 {
 
 .indx-img {
   max-height: var(--height);
+  max-width: 300px;
   margin-left: 100px;
   border-radius: 10px !important;
   padding: 5px;

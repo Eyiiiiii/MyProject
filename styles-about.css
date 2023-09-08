@@ -8,7 +8,7 @@
     background-image: url("src/images/bgwp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Argent CF';
   }
 
 .logo {
@@ -33,7 +33,7 @@
   
   .for-img {
     margin-top: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     width: 1200px;
   }
   

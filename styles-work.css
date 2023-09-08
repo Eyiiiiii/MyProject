@@ -1,14 +1,14 @@
 :root {
     --height: 400px;
-    --image-h: 200px;
-    --image-w: 200px;
+    --image-h: 450px;
+    --image-w: 450px;
   }
   
   body {
-    background-image: url("src/images/bgwp.jpg");
+    background-image: url("src/images/wrkbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'argent CF';
   }
   
   
@@ -16,14 +16,120 @@
     width: 35px;
   }
 
-  hr {
+.txt-intro h1 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #8A2BE2;
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.txt-intro p {
+  margin-left: 400px;
+  margin-top: -20px;
+  text-align: center;
+  width: 500px;
+}
+
+@media (max-width: 970px) {
+  .txt-intro p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+  #divider {
+    margin-left: 410px;
+    margin-top: -20px;
+    width: 60px !important;
+    border: 2px solid blue;
+    line-height: none;
+}
+
+  #bot-divider {
+    margin-left: 670px;
+    margin-top: -20px;
+    width: 60px !important;
+    border: 2px solid blue;
+    line-height: none;
+  }
+
+  #divider-two {
     margin-left: 30px;
     width: 60px !important;
     border: 2px solid blue;
     line-height: none;
   }
-  
+
   .title {
     margin-top: 30px;
     font-weight: bold;
+  }
+
+  .yoga {
+    margin-bottom: 50px;
+    height: var(--image-h);
+    width: var(--image-w);
+  }
+
+  #yoga-txt {
+    padding-top: 170px !important;
+  }
+
+  .choco {
+    margin-top: 50px;
+    margin-bottom: 70px !important;
+    height: var(--image-h);
+    width: var(--image-w);
+  }
+
+  #choco-txt {
+    padding-top: 170px !important;
+  }
+
+  .weather {
+    margin-top: -30px;
+    margin-bottom: 70px;
+    height: 400px;
+    width: var(--image-w);
+  }
+
+  button {
+    color: white;
+    background-color: #8B80D2;
+    border: 1px solid #8B80D2;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  button:hover {
+    color: #8B80D2;
+    background-color: transparent;
+    border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+    transition: all ease-in-out 200ms;
+  }
+
+  h5 {
+    color: #8B80D2;
+  }
+
+  #to-top {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 20px !important;
+  }
+
+  #to-top:hover {
+    color:#8A2BE2;
+    cursor: pointer;
+  }
+
+ #bottom {
+    margin-top: -30px;
+    border: 2px solid black;
   }
