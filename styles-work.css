@@ -8,8 +8,14 @@
     background-image: url("src/images/bgwp.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Poppins', sans-serif;
   }
   
+  
+.logo {
+    width: 35px;
+  }
+
   hr {
     margin-left: 30px;
     width: 60px !important;
