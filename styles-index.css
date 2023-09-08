@@ -29,6 +29,10 @@ h6 {
   font-style: italic
 }
 
+.logo {
+  width: 35px;
+}
+
 .indx-img {
   max-height: var(--height);
   margin-left: 100px;
@@ -75,7 +79,7 @@ h6 {
 }
 
 .proj-link {
-  color: #DBB7E4;
+  color: #d98dec;
   text-decoration: none;
 }
 

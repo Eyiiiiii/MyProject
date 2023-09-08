@@ -18,7 +18,11 @@
   
   .top-txt {
     margin-top: 50px;
-    color: black;
+    color: #9084D2;;
+  }
+
+  .bot-txt h6 {
+    color: #d98dec;
   }
   
   .for-img {
