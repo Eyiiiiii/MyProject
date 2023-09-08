@@ -1,0 +1,102 @@
+:root {
+    --height: 400px;
+    --image-h: 200px;
+    --image-w: 200px;
+  }
+  
+  body {
+    background-image: url("src/images/bgwp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .top-txt {
+    margin-top: 50px;
+    color: black;
+  }
+  
+  .for-img {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 1200px;
+  }
+  
+  .main-txt-content {
+    width: 1200px;
+    margin-top: 30px;
+  }
+  
+  .main-txt {
+    padding-right: 50px;
+    padding-left: 150px;
+    width: 500px;
+    height: 200px;
+  }
+  
+  p {
+    margin-top: 50px;
+  }
+  
+  .image-size {
+    height: var(--image-h);
+    width: var(--image-w);
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+    transition: all 200ms ease-in-out;
+  }
+  
+  .container .image-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      padding: 10px;
+  }
+  
+  .container .image-container .image {
+    border: 6px solid #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .container .image-container .image img {
+    object-fit: cover;
+    transition: .2s linear;
+  }
+  
+  .container .image-container .image:hover img {
+    transform: scale(1.1);
+  }
+  
+  .container h6 {
+    margin-top: 30px;
+    margin-left: 50px !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .work-btn {
+    color: white;
+    background-color: #8B80D2;
+    border-radius: 5px;
+    border: 1px solid #8B80D2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .work-btn:hover {
+    color: #8B80D2;
+    background-color: transparent;
+    border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+    transition: all ease-in-out 200ms;
+  }
