@@ -37,6 +37,14 @@
     margin-left: 0;
     text-align: center;
   }
+
+  #bot-divider {
+    display: none;
+   }
+ 
+   #divider {
+     display: none;
+   }
 }
 
   #divider {
@@ -47,16 +55,16 @@
     line-height: none;
 }
 
+#divider-two {
+  margin-left: 30px;
+  width: 60px !important;
+  border: 2px solid blue;
+  line-height: none;
+}
+
   #bot-divider {
     margin-left: 670px;
     margin-top: -20px;
-    width: 60px !important;
-    border: 2px solid blue;
-    line-height: none;
-  }
-
-  #divider-two {
-    margin-left: 30px;
     width: 60px !important;
     border: 2px solid blue;
     line-height: none;
@@ -85,7 +93,7 @@
   }
 
   #choco-txt {
-    padding-top: 170px !important;
+    padding-top: 160px !important;
   }
 
   .weather {
@@ -115,13 +123,16 @@
 
   h5 {
     color: #8B80D2;
+    line-height: none;
+    margin-bottom: -2px;
   }
 
   #to-top {
+    font-size: 12px;
     text-align: center;
     color: black;
     text-decoration: none;
-    margin-bottom: 20px !important;
+    line-height: none;
   }
 
   #to-top:hover {
@@ -129,12 +140,28 @@
     cursor: pointer;
   }
 
- #bottom {
-    margin-top: -30px;
-    border: 2px solid black;
+  #cntct-link {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    line-height: none;
   }
 
-  i {
-    margin-left: 610px !important;
-    font-size: 50px;
+  #cntct-link:hover {
+    color:#8A2BE2;
+    cursor: pointer;
   }
+
+  #by {
+    font-size: 12px !important;
+    color: black;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+ #bottom {
+    margin-top: -10px;
+    border: 1px solid black;
+  }
+
