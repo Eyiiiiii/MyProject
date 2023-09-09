@@ -140,6 +140,10 @@
     cursor: pointer;
   }
 
+  #to-top:active {
+    behavior: smooth;
+  }
+
   #cntct-link {
     font-size: 12px;
     color: black;
@@ -150,6 +154,12 @@
   #cntct-link:hover {
     color:#8A2BE2;
     cursor: pointer;
+  }
+
+  #abtus-btn {
+    margin-top: 5px;
+    font-size: 12px;
+    padding: 5px;
   }
 
   #by {
