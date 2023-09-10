@@ -24,6 +24,11 @@
 
     .form-group {
         text-align: center;
+        width: 300px;
+    }
+
+    .modal-content {
+      text-align: center;
     }
 }
   
