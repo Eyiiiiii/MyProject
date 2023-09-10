@@ -11,7 +11,7 @@ body {
   font-family: 'Argent CF';
 }
 
-@media (max-width:540px) {
+@media (max-width:667px) {
 .text-design, .bot-design {
   text-align: center;
 }
