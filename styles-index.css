@@ -12,12 +12,22 @@ body {
 }
 
 @media (max-width:667px) {
-.text-design, .bot-design {
-  text-align: center;
+  .text-design {
+    text-align: center;
+    margin-left: 0;
 }
 
 .image-design {
   display: none;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 16px;
+  padding: 0 10px;
 }
 
 }
