@@ -5,7 +5,7 @@
   }
   
   body {
-    background-image: url("src/images/bgwp.jpg");
+    background-image: url("src/images/wrkbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Argent CF';
@@ -69,11 +69,6 @@
     p, h1, .bot-txt {
         text-align: center;
     }
-
-    img {
-
-        position: relative;
-    }
   }
 
   .image-size {
@@ -85,7 +80,7 @@
     transform: scale(1.1);
     transition: all 200ms ease-in-out;
   }
-  
+
   .container .image-container {
       display: flex;
       flex-wrap: wrap;
@@ -115,6 +110,8 @@
     margin-left: 50px !important;
     margin-bottom: 20px !important;
   }
+
+
   
   .work-btn {
     color: white;
