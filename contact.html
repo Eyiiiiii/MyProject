@@ -71,7 +71,26 @@
                 <textarea class="form-control" id="msg-box" rows="3" placeholder="Message"></textarea>
             </div>
             <div class="row">
-                <div class="col-md"><button id="submit-btn">Submit</button></div>
+                <div class="col-md"><button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" id="submit-btn">Submit</button>
+                  <div class="modal fade"
+                  id="exampleModal"
+                  tabindex="-1"
+                  role="dialog"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true">
+                 <div class="modal-dialog" role="document">
+                     <div class="modal-content">
+          
+                         <!-- Add image inside the body of modal -->
+                         <div class="length">
+                             <img id="image"
+                             src="src/images/overlay.png"
+                                  alt="Click on button" />
+                         </div>
+                  </div>
+              </div>
+          </div>
+                </div> <!--closing tag for col-md-6-->
             </div>
         </form>
         </div>
@@ -109,5 +128,6 @@
           </div>
         </div>
     </div>
+</script>
 </body>
 </html>
