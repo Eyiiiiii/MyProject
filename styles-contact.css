@@ -1,0 +1,107 @@
+:root {
+    --height: 400px;
+    --image-h: 50px;
+    --image-w: 50px;
+  }
+  
+  body {
+    background-image: url("src/images/contactwp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'argent CF';
+  }
+
+  @media (max-width:540px) {
+    h1 {
+    display: block;
+    text-align: left;
+    margin-top: none;
+    }
+
+    body {
+    background-size: cover;
+    }
+
+    .form-group {
+        text-align: center;
+    }
+}
+  
+.logo {
+    width: 35px;
+  }
+
+  .intro h1 {
+    color: #4C2443;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 470px;
+  }
+
+  .form-group {
+    width: 700px;
+  }
+
+  #full-name {
+    margin-top: 10px;
+  }
+
+  #full-name, #mail, #message {
+    margin-bottom: 20px;
+  }
+
+  #submit-btn {
+    color: white;
+    background-color: #8B80D2;
+    border: 1px solid #8B80D2;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  #submit-btn:hover {
+    color: white;
+    background-color: transparent;
+    border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+    transition: all ease-in-out 200ms;
+  }
+
+  #submit-btn {
+    margin-top: 20px;
+  }
+
+  #divider {
+    width: 730px !important;
+    border: 2px solid blue;
+    line-height: none;
+}
+
+.contact-content {
+    margin-top: 38px;
+}
+
+.contact {
+    margin-bottom: 10px;
+}
+
+h4, h5 {
+    line-height: none;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #4C2443;
+}
+
+.fb, .ig, .tt {
+    width: var(--image-h);
+    height: var(--image-w);
+}
+
+.fb:hover, .ig:hover, .tt:hover {
+    cursor: pointer;
+}
