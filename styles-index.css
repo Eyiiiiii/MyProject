@@ -109,3 +109,76 @@ h6 {
 .proj-link:active {
   color: blueviolet;
 }
+
+button {
+  color: white;
+  background-color: #8B80D2;
+  border: 1px solid #8B80D2;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+button:hover {
+  color: #8B80D2;
+  background-color: transparent;
+  border: 1px solid radial-gradient(circle at 10% 20%, rgba(91, 173, 254, 0.46) 0%, rgba(91, 224, 254, 0.46) 47.2%, rgba(170, 254, 235, 0.43) 90%);;
+  transition: all ease-in-out 200ms;
+}
+
+h5 {
+  color: #8B80D2;
+  line-height: none;
+  margin-bottom: -2px;
+}
+
+#to-top {
+  font-size: 12px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  line-height: none;
+}
+
+#to-top:hover {
+  color:#8A2BE2;
+  cursor: pointer;
+}
+
+#to-top:active {
+  behavior: smooth;
+}
+
+#cntct-link {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  line-height: none;
+}
+
+#cntct-link:hover {
+  color:#8A2BE2;
+  cursor: pointer;
+}
+
+#abtus-btn {
+  margin-top: 5px;
+  font-size: 12px;
+  padding: 5px;
+}
+
+#by {
+  font-size: 12px !important;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+#bottom {
+  margin-top: 50px;
+  border: 1px solid #8A2BE2;
+  width: 1300px;
+}
