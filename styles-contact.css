@@ -102,6 +102,15 @@ h4 {
     color: #4C2443;
 }
 
+#mailus {
+  color: black;
+  text-decoration: none;
+}
+
+#mailus:hover {
+  color: white;
+}
+
 .fb, .ig, .tt {
     width: var(--image-h);
     height: var(--image-w);
